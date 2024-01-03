@@ -18,54 +18,62 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background:white;
+  background: white;
   font-family: Gilroy-Medium;
-
 }
 
-.flex-div{
+.flex-div {
   display: flex;
   justify-content: space-between;
 }
-.hero-banner{
-  background-image: url("../assets//images/hero.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  background-blend-mode: color-burn;
-  min-height: 100dvh;
+
+.padding-sm {
+  padding: 20px 0;
 }
-.padding-sm{
-  padding: 15px 0;
-}
-.padding-lg{
+.padding-lg {
   padding: 10px 20px;
 }
-.gap-sm{
+.gap-sm {
   gap: 10px;
 }
-.gap-lg{
-  gap: 20px;
+.gap-lg {
+  gap: 40px;
 }
-.btn-not-hover{
-  color: #25A4AD;
-  border: 1px solid #25A4AD;
-  padding:7px 10px;
+.btn-not-hover {
+  color: #25a4ad;
+  border: 1px solid #25a4ad;
+  padding: 7px 10px;
   font-family: Gilroy-Medium;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
 }
-.btn{
-font-family: Gilroy-Medium;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding:7px 10px;
-
+.text {
+  width: 400px;
+  color: #313131;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.9%; /* 23.664px */
+}
+.btn-hover {
+  background-color: #25a4ad;
+  border: 1px solid #25a4ad;
+  color: white;
+  padding: 7px 10px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 10px;
 }

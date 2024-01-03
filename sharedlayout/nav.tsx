@@ -5,15 +5,28 @@ import React, { FC } from "react";
 
 const Nav: FC = () => {
   return (
-    <div className="flex items-center justify-between  w-full padding-sm nav-content" style={{background:"transparent"}}>
+    <div
+      className="flex items-center justify-between  w-full padding-sm nav-content"
+      style={{
+        background: "white",
+        position: "fixed",
+        top: "0",
+        zIndex: "10",
+        padding:"20px 40px 0 40px",
+        // maxWidth: "87vw",
+        overflow: "hidden",
+      }}
+    >
       <div className="  gap-lg flex-div">
         <div>
           {" "}
-          <Image src={paymeLogo} alt="payme logo" />
+          <Link href="/Home">
+            <Image src={paymeLogo} alt="payme logo" />
+          </Link>
         </div>
         <ul className="flex-div gap-lg">
           <li>
-            <Link href="#"> Home</Link>
+            <Link href="/Home"> Home</Link>
           </li>
           <li>
             <Link href="#"> About</Link>
