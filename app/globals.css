@@ -22,9 +22,20 @@ body {
   font-family: Gilroy-Medium;
 
 }
+
 .flex-div{
   display: flex;
   justify-content: space-between;
+}
+.hero-banner{
+  background-image: url("../assets//images/hero.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-blend-mode: color-burn;
+  min-height: 100dvh;
 }
 .padding-sm{
   padding: 15px 0;

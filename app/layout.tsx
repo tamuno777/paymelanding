@@ -17,8 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className }>
-        <div className='px-10 pt-2'>
+      <body className='px-10 pt-2 flex flex-col '>
+        <div className='hero-banner'>
+          
         <Nav/>
         {children}
         

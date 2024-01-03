@@ -5,7 +5,7 @@ import React, { FC } from "react";
 
 const Nav: FC = () => {
   return (
-    <div className="flex items-center justify-between  w-full padding-sm">
+    <div className="flex items-center justify-between  w-full padding-sm nav-content" style={{background:"transparent"}}>
       <div className="  gap-lg flex-div">
         <div>
           {" "}
