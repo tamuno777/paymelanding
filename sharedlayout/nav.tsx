@@ -5,36 +5,13 @@ import React, { FC } from "react";
 
 const Nav: FC = () => {
   return (
-    <div
-      className="flex items-center justify-between py-5 w-full"
-      style={{
-        justifyContent: "space-between",
-        display: "flex",
-        padding: "10px 30px",
-      }}
-    >
-      <div
-        className=" flex justify-between"
-        style={{
-          justifyContent: "space-between",
-          display: "flex",
-          background: "pink",
-          padding: "5px 10px",
-          gap: "20px",
-        }}
-      >
+    <div className="flex items-center justify-between  w-full padding-sm">
+      <div className="  gap-lg flex-div">
         <div>
           {" "}
           <Image src={paymeLogo} alt="payme logo" />
         </div>
-        <ul
-          className="flex justify-between "
-          style={{
-            justifyContent: "space-between",
-            display: "flex",
-            gap: "20px",
-          }}
-        >
+        <ul className="flex-div gap-lg">
           <li>
             <Link href="#"> Home</Link>
           </li>
@@ -49,18 +26,9 @@ const Nav: FC = () => {
           </li>
         </ul>
       </div>
-      <div
-        style={{
-          justifyContent: "space-between",
-          display: "flex",
-          gap: "20px",
-        }}
-      >
-        <button className="px-4 py-2 text-sm  text-black">Sign in</button>
-        <button className="px-4 py-2 text-sm   text-green border border-green">
-          {" "}
-          Sign up
-        </button>
+      <div className="gap-sm flex-div">
+        <button className="btn">Sign in</button>
+        <button className="btn-not-hover"> Sign up</button>
       </div>
     </div>
   );

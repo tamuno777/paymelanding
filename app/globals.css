@@ -18,10 +18,43 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:white;
+  font-family: Gilroy-Medium;
+
+}
+.flex-div{
+  display: flex;
+  justify-content: space-between;
+}
+.padding-sm{
+  padding: 15px 0;
+}
+.padding-lg{
+  padding: 10px 20px;
+}
+.gap-sm{
+  gap: 10px;
+}
+.gap-lg{
+  gap: 20px;
+}
+.btn-not-hover{
+  color: #25A4AD;
+  border: 1px solid #25A4AD;
+  padding:7px 10px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+.btn{
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding:7px 10px;
+
 }
