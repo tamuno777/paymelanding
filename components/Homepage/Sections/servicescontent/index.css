@@ -8,12 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.align-item {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
+
 .img-div .img {
   width: 252px;
   height: 242px;

@@ -69,6 +69,12 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.align-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
 
 .thin {
   color: #313131;

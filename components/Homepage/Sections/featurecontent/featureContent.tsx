@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import "./index.css";
+import FeatureCard from "./featurecards";
 
 const FeatureContent: FC = () => {
   return (
@@ -16,7 +17,8 @@ const FeatureContent: FC = () => {
       </div>
 
       <div>
-        
+        <FeatureCard/>
+
       </div>
     </div>
   );

@@ -1,0 +1,31 @@
+.feature-content {
+  background: #f8f8f8;
+}
+.card:hover {
+  background: #fff;
+  box-shadow: 0px 1.852px 3.148px 0px rgba(49, 49, 49, 0.02),
+    0px 20px 13px 0px rgba(49, 49, 49, 0.05),
+    0px 38.519px 25.481px 0px rgba(49, 49, 49, 0.06);
+}
+.card {
+  border: 1px solid #d8d8d8;
+  background-color: transparent;
+}
+.card:hover .span-text {
+  color: #25a4ad;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.span-text {
+  color: black;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

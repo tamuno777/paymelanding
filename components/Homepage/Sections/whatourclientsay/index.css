@@ -1,0 +1,11 @@
+.clientsay-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-image: url(../../../../assets/images/client.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
