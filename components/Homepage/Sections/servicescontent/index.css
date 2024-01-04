@@ -1,45 +1,45 @@
-.service-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.service-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-image: url(../../../../assets/images/servicebg.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.align-item{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-
+.align-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
-.thin{
-    color: #313131;
-font-family: Gilroy-Thin;
-font-size: 45px;
-font-style: normal;
-font-weight: 400;
-line-height: 100%; /* 65px */
+.img-div .img {
+  width: 252px;
+  height: 242px;
+  flex-shrink: 0;
+  filter: brightness(45%);
 }
-.bold{
-    color: #25A4AD;
-font-family: Gilroy-SemiBold;
-font-size: 45px;
-font-style: normal;
-font-weight: 400;
-line-height: 100%;
+.up {
+  align-items: flex-start;
 }
-.img-div .img{
-    width: 252px;
-height: 242px;
-flex-shrink: 0;
+.down {
+  align-items: flex-end;
 }
-.up{
-    align-items: flex-start;
+.img-div {
+  column-gap: 20px;
+  justify-content: center;
 }
-.down{
-    align-items: flex-end;
-}
-.img-div{
-    column-gap: 20px;
-    justify-content: center;
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
 }
