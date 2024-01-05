@@ -49,6 +49,17 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.btn-not-hover:hover {
+  background-color: #25a4ad;
+  border: 1px solid #25a4ad;
+  color: white;
+  padding: 7px 10px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .text {
   width: 400px;
   color: #313131;

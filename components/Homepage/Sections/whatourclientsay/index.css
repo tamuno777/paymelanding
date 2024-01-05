@@ -8,4 +8,12 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .client-feeedback{
+    border-radius: 0px 0px 236px 0px;
+background: #F8F8F8;
+text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  }
   

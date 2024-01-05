@@ -1,0 +1,46 @@
+.Pricecard:hover {
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(49, 49, 49, 0.02), 0px 20px 13px 0px rgba(49, 49, 49, 0.05), 0px 38.519px 25.481px 0px rgba(49, 49, 49, 0.06);
+    transform: translateY(-10px);
+
+  }
+  .Pricecard {
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+    width: 362px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+ 
+   .benefits-text {
+    color: #313131;
+font-family: Gilroy-Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 16px */
+text-transform: capitalize;
+   }
+.Pricecard:hover li{
+    color: #25a4ad !important;
+
+}
+  .Pricecard:hover .benefits-text {
+    color: #25a4ad !important;
+    
+  }
+  .Pricecard:hover .btn-not-hover {
+    background-color: #25a4ad;
+    border: 1px solid #25a4ad;
+    color: white;
+    padding: 7px 10px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  

@@ -4,6 +4,7 @@ import {
   FeatureContent,
   HeroContent,
   PartnersContent,
+  Pricingcontent,
   ServiceContent,
 } from "@/components/Homepage/Sections";
 
@@ -15,6 +16,7 @@ const Homepage: FC = () => {
       <ServiceContent />
       <FeatureContent />
       <ClientSay />
+      <Pricingcontent/>
     </div>
   );
 };

@@ -3,12 +3,14 @@ import PartnersContent from "./partners/partnersContent";
 import ServiceContent from "./servicescontent/serviceContent";
 import FeatureContent from "./featurecontent/featureContent";
 import ClientSay from "./whatourclientsay/ClientSay";
+import Pricingcontent from "./pricingcontent/Pricingcontent";
 
 export {
     HeroContent,
     PartnersContent,
     ServiceContent,
     FeatureContent,
-    ClientSay
+    ClientSay,
+    Pricingcontent
     
 }
