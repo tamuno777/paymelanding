@@ -4,6 +4,7 @@ import Uumbraco from "./pat6.svg"
 import Pearlfisher from "./pat2.svg"
 import Brightpearl from "./pat3.svg"
 import rate from "./rate.svg"
+import paymefooterlogo from "./Paymefooter.svg"
 
 export {
     paymeLogo,
@@ -11,5 +12,6 @@ export {
     Uumbraco,
     Pearlfisher,
     Brightpearl,
-    rate
+    rate,
+    paymefooterlogo
 }

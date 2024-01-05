@@ -20,22 +20,22 @@ const Nav: FC = () => {
       <div className="  gap-lg flex-div">
         <div>
           {" "}
-          <Link href="/Home">
+          <Link href="/">
             <Image src={paymeLogo} alt="payme logo" />
           </Link>
         </div>
         <ul className="flex-div gap-lg">
           <li>
-            <Link href="/Home"> Home</Link>
+            <Link href="/"> Home</Link>
           </li>
           <li>
-            <Link href="#"> About</Link>
+            <Link href="/About"> About</Link>
           </li>
           <li>
-            <Link href="#"> Testimonials</Link>
+            <Link href="/Testimonials"> Testimonials</Link>
           </li>
           <li>
-            <Link href="#"> Contact</Link>
+            <Link href="/Contact"> Contact</Link>
           </li>
         </ul>
       </div>

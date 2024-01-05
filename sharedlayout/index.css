@@ -1,0 +1,53 @@
+.footer-container{
+    background-image: url("../assets/images/Background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    /* height: 100vh; */
+}
+.demo-btn{
+    border: 1px solid #FFF;
+    padding: 20px;
+    color: #FFF;
+  padding: 7px 10px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: transparent;
+  line-height: normal;
+}
+.footer-container p{
+    color: #FFF;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+    .footer-container h3{
+        color: #FFF;
+text-align: center;
+font-family: Gilroy-SemiBold;
+font-size: 65px;
+font-style: normal;
+width: 50%;
+font-weight: 400;
+line-height: 76px; /* 116.923% */
+    }
+    .content p{
+        transition: transform 0.3s ease;
+
+    }
+    .content p:hover{
+        transform: translateX(10px);
+
+
+    }

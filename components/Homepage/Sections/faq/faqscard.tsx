@@ -1,6 +1,7 @@
 "use client"
 import React, { FC, useState } from "react";
 import { FaqProps } from "./faq";
+import "./index.css"
 
 interface FaqscardProps {
     faqs: FaqProps[];
@@ -8,7 +9,7 @@ interface FaqscardProps {
   
   const Faqscard: FC<FaqscardProps> = ({ faqs }) => {
     return (
-      <dl>
+      <dl className="faq-div p-3">
         {faqs.map((faq, index) => (
           <FaqItem key={index} faq={faq} />
         ))}
@@ -30,11 +31,17 @@ interface FaqscardProps {
     return (
       
           <React.Fragment>
-      <dt aria-expanded={isOpen ? 'true' : 'false'} onClick={toggle}>
-        {faq.question}
-        <span className="toggle-text">{isOpen ? 'Collapse' : 'Expand'}</span>
+     <div className="flex flex-col card-div">
+     <dt aria-expanded={isOpen ? 'true' : 'false'} onClick={toggle} className="question" >
+        <span className="toggle-text">{isOpen ? '-' : '+'}</span>
+       <div>
+       {faq.question}
+        <dd className={!isOpen ? 'hidden answer' : "answer mt-3" }>{faq.answer}</dd>
+
+       </div>
+
       </dt>
-      <dd className={!isOpen ? 'hidden' : undefined}>{faq.answer}</dd>
+     </div>
     </React.Fragment>
          
           
