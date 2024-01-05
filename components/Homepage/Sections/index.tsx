@@ -4,6 +4,7 @@ import ServiceContent from "./servicescontent/serviceContent";
 import FeatureContent from "./featurecontent/featureContent";
 import ClientSay from "./whatourclientsay/ClientSay";
 import Pricingcontent from "./pricingcontent/Pricingcontent";
+import Faq from "./faq/faq";
 
 export {
     HeroContent,
@@ -11,6 +12,7 @@ export {
     ServiceContent,
     FeatureContent,
     ClientSay,
-    Pricingcontent
+    Pricingcontent,
+    Faq
     
 }

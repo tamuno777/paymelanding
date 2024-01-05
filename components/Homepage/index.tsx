@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import {
   ClientSay,
+  Faq,
   FeatureContent,
   HeroContent,
   PartnersContent,
@@ -17,6 +18,7 @@ const Homepage: FC = () => {
       <FeatureContent />
       <ClientSay />
       <Pricingcontent/>
+      <Faq/>
     </div>
   );
 };
