@@ -7,6 +7,8 @@
     background-image: url(../../../../assets/images/client.png);
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
+    overflow: hidden;
   }
   .client-feeedback{
     border-radius: 0px 0px 236px 0px;
