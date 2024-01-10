@@ -1,20 +1,90 @@
-.footer-container{
-    background-image: url("../assets/images/Background.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 50px;
-    width: 100%;
+.nav-content {
+  background: white;
+  z-index: 10;
+  padding: 20px 40px 0 40px;
+  overflow: hidden;
+  @media only screen and (max-width: 767px) {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 50px;
-    /* height: 100vh; */
+    left: 0;
+    padding: 15px;
+    overflow: hidden;
+  }
+  @media only screen and (min-width: 767px) {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
 }
-.demo-btn{
-    border: 1px solid #FFF;
-    padding: 20px;
-    color: #FFF;
+
+.menu {
+  /* overflow: hidden; */
+
+}
+.show-btn {
+  opacity: 0;
+  @media only screen and (max-width: 768px) {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column !important; /* Change to row for larger screens */
+    align-items: flex-start; /* Adjust alignment */
+    top: 0; /* Adjust the position */
+    width: 60%;
+    padding: 15px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    justify-content: flex-start;
+    right: 0;
+    visibility: hidden;
+    /* transition: transform 0.3s ease-in-out; */
+    /* transform: translateX(100%); */
+  }
+  .menu a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+.menu{
+  /* visibility: visible; */
+}
+
+.menu.open {
+  /* transform: translateX(0); */
+  visibility: visible;
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+  flex-direction: column !important; /* Change to row for larger screens */
+  align-items: flex-start; /* Adjust alignment */
+  top: 0; /* Adjust the position */
+}
+.footer-container {
+  background-image: url("../assets/images/Background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+.demo-btn {
+  border: 1px solid #fff;
+  padding: 20px;
+  color: #fff;
   padding: 7px 10px;
   font-family: Gilroy-Medium;
   font-size: 18px;
@@ -23,31 +93,64 @@
   background-color: transparent;
   line-height: normal;
 }
-.footer-container p{
-    color: #FFF;
-    font-family: Gilroy-Medium;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+.footer-container p {
+  color: #fff;
+  font-family: Gilroy-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.footer-container h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-SemiBold;
+  font-size: 65px;
+  font-style: normal;
+  width: 50%;
+  font-weight: 400;
+  line-height: 76px; /* 116.923% */
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+    line-height: normal;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+.hello{
+  @media only screen and (max-width: 768px) {
+  flex-direction: column;
+  gap: 10px;
+  }
+}
+.content p {
+  transition: transform 0.3s ease;
+  @media only screen and (max-width: 768px) {
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+}
+.content p:hover {
+  transform: translateX(10px);
+}
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 30px;
+  background-color: cadetblue;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
 
 }
-    .footer-container h3{
-        color: #FFF;
-text-align: center;
-font-family: Gilroy-SemiBold;
-font-size: 65px;
-font-style: normal;
-width: 50%;
-font-weight: 400;
-line-height: 76px; /* 116.923% */
-    }
-    .content p{
-        transition: transform 0.3s ease;
-
-    }
-    .content p:hover{
-        transform: translateX(10px);
-
-
-    }

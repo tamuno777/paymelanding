@@ -1,10 +1,17 @@
 .hero-banner {
-  background-image: url("../../../../assets/images/hero.png");
+  background-image: url("../../../../assets/images/herosm.png");
   background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
   height: 100dvh;
   background-blend-mode: color-burn;
+    @media only screen and (max-width: 767px) {
+      background-position: center center;
+      align-items: center;
+      display: flex;
+      background-image: url("../../../../assets/images/hero.png");
+
+}
 }
 .hero-content {
   width: 623px;
@@ -18,6 +25,26 @@
   text-align: left;
   height: fit-content;
   padding: 170px 0 0px 0px;
+  @media only screen and (max-width: 767px) {
+padding: 10px 30px;
+left: 0px;
+width: fit-content;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+  }
+}
+.hero-p{
+  @media only screen and (max-width: 767px) {
+    width: 90%;
+      }
+
+}
+.btn-on-sm{
+  @media only screen and (max-width: 767px) {
+      flex-wrap: wrap;
+            }
 }
 .hero-banner .header-text {
   color: #313131;
@@ -29,6 +56,10 @@
   font-weight: 100;
   line-height: 100%;
   font-family: Gilroy-Thin !important;
+
+  @media only screen and (max-width: 767px) {
+  font-size: 45px;
+  }
 }
 
 .hero-banner span {
@@ -37,4 +68,7 @@
   font-size: 80px;
   font-weight: 400;
   line-height: 100%;
+  @media only screen and (max-width: 767px) {
+    font-size: 40px;
+    }
 }

@@ -20,6 +20,14 @@ body {
   color: rgb(var(--foreground-rgb));
   background: white;
   font-family: Gilroy-Medium;
+    scroll-behavior: smooth;
+    width: 100% !important;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .flex-div {
@@ -49,6 +57,12 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+/* .nav-children{
+  @media only screen and (max-width: 767px) {
+    flex-direction: row;
+    display: flex;
+  }
+} */
 .btn-not-hover:hover {
   background-color: #25a4ad;
   border: 1px solid #25a4ad;

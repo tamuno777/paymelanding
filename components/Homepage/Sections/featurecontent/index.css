@@ -1,6 +1,14 @@
 .feature-content {
   background: #f8f8f8;
 }
+.carousel {
+
+  @media only screen and (max-width: 768px) {
+    position: relative;
+    left: -50px;
+    overflow: hidden;
+  }
+}
 .card:hover {
   background: #fff;
   box-shadow: 0px 1.852px 3.148px 0px rgba(49, 49, 49, 0.02),

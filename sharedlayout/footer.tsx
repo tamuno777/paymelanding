@@ -14,7 +14,7 @@ const Footer: FC = () => {
           <button className="demo-btn">Schedule demo</button>
         </div>{" "}
       </div>
-      <div className="flex-div ">
+      <div className="flex-div hello ">
         <div>
           <Image src={paymefooterlogo} alt="payme logo" />
           <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>

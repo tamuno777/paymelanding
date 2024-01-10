@@ -39,9 +39,9 @@ const FeatureCard: FC = () => {
         >
           <motion.div
             className="first-set inner-carousel flex px-5"
-            style={{ justifyContent: "center" }}
+            style={{ justifyContent: "center"}}
             drag="x"
-            dragConstraints={{ right: 0, left: -350 }}
+            dragConstraints={{ right: width/2, left: -width }}
             transition={{
               type: "tween",
               damping: 20,

@@ -1,32 +1,34 @@
+"use client"
 import { paymeLogo } from "@/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
-import React, { FC } from "react";
+import React, { FC, useState } from "react";
+import "./index.css"
 
 const Nav: FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState<Boolean>(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
   return (
     <div
       className="flex items-center justify-between  w-full padding-sm nav-content"
-      style={{
-        background: "white",
-        position: "fixed",
-        top: "0",
-        zIndex: "10",
-        padding:"20px 40px 0 40px",
-        // maxWidth: "87vw",
-        overflow: "hidden",
-      }}
+      
     >
-      <div className="  gap-lg flex-div">
+      <div className="flex">
+      <div className="  gap-lg flex-div content">
         <div>
           {" "}
           <Link href="/">
             <Image src={paymeLogo} alt="payme logo" />
           </Link>
         </div>
-        <ul className="flex-div gap-lg">
+        <ul className= {` flex-div gap-lg menu  ${isMenuOpen ? 'open  ' : ''}`}>
+          <li onClick={toggleMenu} className= "show-btn">close</li>
           <li>
-            <Link href="/"> Home</Link>
+            <Link href="/" className="li"> Home</Link>
           </li>
           <li>
             <Link href="/About"> About</Link>
@@ -39,12 +41,20 @@ const Nav: FC = () => {
           </li>
         </ul>
       </div>
-      <div className="gap-sm flex-div">
+      {/* <div className="gap-sm flex-div">
         <button className="btn">Sign in</button>
         <button className="btn-not-hover"> Sign up</button>
+      </div> */}
+      </div>
+      <div className="burger-menu" onClick={toggleMenu}>
+        <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
+        <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
+        <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
       </div>
     </div>
   );
 };
 
 export default Nav;
+
+

@@ -13,14 +13,14 @@ const ClientSay: FC = () => {
         <p className="thin ps-2">Say</p>
       </div>
       <div className="align-item">
-        <p className="text " style={{ width: "500px" }}>
+        <p className="text  " style={{ width: "500px" }}>
           Letter of on become he tended active enable to. Vicinity relation
           sensible sociable surprise screened no up as.
         </p>
       </div>
       <div>
         <div
-          className="flex my-10 gap-sm"
+          className="flex my-10 gap-sm client-feed"
           style={{
             justifyContent: "center",
             maxHeight: "475px",
@@ -30,11 +30,12 @@ const ClientSay: FC = () => {
             src={client1}
             alt="best developers"
             style={{ width: "fit-content" }}
+            className="img-client"
           />
 
           <div className="client-feeedback p-6">
             <h6><strong>Best Developers</strong></h6>
-            <p className="text py-3 pe-10 " style={{fontSize:"13px"}}>
+            <p className="text py-3 pe-10 feedback-text  " style={{fontSize:"13px"}}>
               Outward clothes promise at gravity do excited. Sufficient
               particular impossible by reasonable oh expression is. Yet
               preference connection unpleasant yet melancholy but end

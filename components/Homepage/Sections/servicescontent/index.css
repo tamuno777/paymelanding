@@ -7,6 +7,9 @@
   background-image: url(../../../../assets/images/servicebg.png);
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  overflow: hidden;
+
 }
 
 .img-div .img {
@@ -14,6 +17,10 @@
   height: 242px;
   flex-shrink: 0;
   filter: brightness(45%);
+  @media only screen and (max-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
 }
 .up {
   align-items: flex-start;
@@ -36,5 +43,8 @@
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 36px */
+  line-height: 100%;
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 }

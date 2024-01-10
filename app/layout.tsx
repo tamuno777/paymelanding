@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className=" pt-2 flex flex-col ">
-        <div className="w-full">
+        <div className="w-full nav-children">
           <Nav />
           <div className="mt-0 w-full">{children}</div>
         </div>

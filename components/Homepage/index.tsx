@@ -16,7 +16,7 @@ const Homepage: FC = () => {
       <PartnersContent />
       <ServiceContent />
       <FeatureContent />
-      <ClientSay />
+      {/* <ClientSay /> */}
       <Pricingcontent/>
       <Faq/>
     </div>

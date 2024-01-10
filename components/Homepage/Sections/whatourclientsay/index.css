@@ -15,5 +15,20 @@ text-align: left;
 display: flex;
 flex-direction: column;
 justify-content: center;
+@media only screen and (max-width: 768px) {
+  width: 100%;
+  padding:0 0 15px 15px;
+}
   }
   
+  .feedback-text{
+    @media only screen and (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    }
+  }
+  .client-feed{
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
