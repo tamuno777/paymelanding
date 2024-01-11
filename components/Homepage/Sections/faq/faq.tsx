@@ -29,7 +29,7 @@ const Faq: FC = () => {
   ];
 
   return (
-    <div className="faq-content p-10">
+    <div className="faq-content ">
       <div className="flex w-full align-item pb-5 ">
         <p className="bold">FAQs</p>
       </div>

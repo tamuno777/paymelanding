@@ -32,7 +32,7 @@ interface FaqscardProps {
       
           <React.Fragment>
      <div className="flex flex-col card-div">
-     <dt aria-expanded={isOpen ? 'true' : 'false'} onClick={toggle} className="question" >
+     <div aria-expanded={isOpen ? 'true' : 'false'} onClick={toggle} className="question" >
         <span className="toggle-text">{isOpen ? '-' : '+'}</span>
        <div>
        {faq.question}
@@ -40,7 +40,7 @@ interface FaqscardProps {
 
        </div>
 
-      </dt>
+      </div>
      </div>
     </React.Fragment>
          
