@@ -40,12 +40,16 @@ const Nav: FC = () => {
             <Link href="/Contact"> Contact</Link>
           </li>
           <li>
-             <div className="gap-sm flex-div">
-        <button className="btn">Sign in</button>
-        <button className="btn-not-hover"> Sign up</button>
-        <button className="btn"> Portfolio</button>
-      </div>
+            <Link href="#"className="btn">Sign in</Link>
           </li>
+          <li>
+            <Link href="#"className="btn-not-hover"> Sign up</Link>
+          </li>
+          <li>
+            <Link href="#"className="btn">Portfolio</Link>
+          </li>
+         
+         
         </ul>
       </div>
      
