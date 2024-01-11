@@ -39,12 +39,16 @@ const Nav: FC = () => {
           <li>
             <Link href="/Contact"> Contact</Link>
           </li>
-        </ul>
-      </div>
-      {/* <div className="gap-sm flex-div">
+          <li>
+             <div className="gap-sm flex-div">
         <button className="btn">Sign in</button>
         <button className="btn-not-hover"> Sign up</button>
-      </div> */}
+        <button className="btn"> Portfolio</button>
+      </div>
+          </li>
+        </ul>
+      </div>
+     
       </div>
       <div className="burger-menu" onClick={toggleMenu}>
         <div className={`bar ${isMenuOpen ? 'open' : ''}`}></div>
