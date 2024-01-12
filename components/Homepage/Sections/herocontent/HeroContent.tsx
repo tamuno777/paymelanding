@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import "./index.css";
 const HeroContent: FC = () => {
   return (
-    <div className="hero-banner mt-10 ">
+    <div className="hero-banner mt-0 ">
       <div className=" hero-content">
         <p className="header-text">Providing Best</p>
         <span>WEB Services</span>
