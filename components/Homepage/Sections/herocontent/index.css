@@ -3,7 +3,7 @@
   background-position: center right;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100dvh;
+  height: 100vh;
   background-blend-mode: color-burn;
   @media only screen and (max-width: 767px) {
     background-position: center center;
@@ -35,8 +35,14 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    @supports (-webkit-backdrop-filter: blur(20px)) {
+      .hero-content {
+        -webkit-backdrop-filter: blur(20px);
+      }
+    }
   }
 }
+
 .hero-p {
   @media only screen and (max-width: 767px) {
     width: 90%;
