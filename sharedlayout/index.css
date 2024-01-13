@@ -6,7 +6,6 @@
     display: flex;
     left: 0;
     padding: 15px;
-    overflow: hidden;
   }
   @media only screen and (min-width: 767px) {
     position: sticky;
@@ -111,7 +110,7 @@
 }
 .hello {
   @media only screen and (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column !important;
     gap: 10px;
   }
 }

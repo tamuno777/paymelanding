@@ -28,9 +28,9 @@ const Nav: FC = () => {
             <li onClick={toggleMenu} className="show-btn">
               {" "}
               <svg
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="2"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -60,30 +60,29 @@ const Nav: FC = () => {
             <li className="paste-button">
               <button className="button">More &nbsp; ▼</button>
               <div className="dropdown-content">
-                <li>
-                  <Link href="#" id="top" className="btn">
-                    Sign in
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" id="middle" className="btn" style={{borderRadius:"0 "}}>
-                    {" "}
-                    Sign up
-                  </Link>
-                </li>
-                
+                <Link href="#" id="top" className="btn">
+                  Sign in
+                </Link>
+                <Link
+                  href="#"
+                  id="middle"
+                  className="btn"
+                  style={{ borderRadius: "0 " }}
+                >
+                  {" "}
+                  Sign up
+                </Link>
               </div>
             </li>
             <li>
-                  <Link
-                    href="https://winnie-rose.vercel.app/"
-                    id="bottom"
-                    className="btn"
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-
+              <Link
+                href="https://winnie-rose.vercel.app/"
+                id="bottom"
+                className="btn"
+              >
+                Portfolio
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
