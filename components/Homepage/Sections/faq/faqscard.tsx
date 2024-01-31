@@ -1,7 +1,7 @@
 "use client"
 import React, { FC, useState } from "react";
 import { FaqProps } from "./faq";
-import "./index.css"
+import "./faq.css"
 
 interface FaqscardProps {
     faqs: FaqProps[];

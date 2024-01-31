@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "./index.css";
+import "./services.css";
 import Image from "next/image";
 import { datamanagment, sco, webdesign, webdev } from "@/assets/images";
 import { rate } from "@/assets/icons";

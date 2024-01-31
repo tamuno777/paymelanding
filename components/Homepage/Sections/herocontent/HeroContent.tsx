@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "./index.css";
+import "./herocontent.css";
 const HeroContent: FC = () => {
   return (
     <div className="hero-banner mt-0 ">

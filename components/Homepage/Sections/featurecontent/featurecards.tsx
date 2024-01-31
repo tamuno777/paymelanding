@@ -2,7 +2,7 @@
 import React, { FC, useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { features } from "@/featuredata";
-import "./index.css";
+import "./feature.css";
 import Link from "next/link";
 
 interface Item {

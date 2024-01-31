@@ -1,5 +1,5 @@
 import React, { FC, useState } from "react";
-import "./index.css";
+import "./faq.css";
 import Faqscard from "./faqscard";
 
 export interface FaqProps {

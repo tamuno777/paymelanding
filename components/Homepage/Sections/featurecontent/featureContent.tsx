@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "./index.css";
+import "./feature.css";
 import FeatureCard from "./featurecards";
 
 const FeatureContent: FC = () => {

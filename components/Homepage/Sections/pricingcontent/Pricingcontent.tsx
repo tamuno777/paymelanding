@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { price } from "@/pricingdata";
-import "./index.css";
+import "./pricing.css";
 
 const Pricingcontent: FC = () => {
   return (

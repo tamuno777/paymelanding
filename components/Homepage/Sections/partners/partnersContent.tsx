@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "./index.css";
+import "./partners.css";
 import Image from "next/image";
 import { Brightpearl, Pearlfisher, Planday, Uumbraco } from "@/assets/icons";
 
